@@ -1,0 +1,38 @@
+*{
+    font-family: Arial;
+}
+#baner,#stopka{
+    background-color: saddlebrown;
+    color: white;
+    height: 100px;
+}
+#lewy,#lewy_stopka{
+    width: 55%;
+    font-size: 120%;
+    float: left;
+}
+#srodek,#srodek_stopka{
+    width: 25%;
+    float: left;
+}
+#prawy,#prawy_stopka{
+    width: 20%;
+    text-align: right;
+    float: left;
+}
+#glowny{
+    background-color: snow;
+    padding: 70px;
+}
+a{
+    border-color: saddlebrown;
+    border-style: dotted;
+    border-width: 2px;
+    background-color: snow;
+    color: saddlebrown;
+    padding: 20px;
+    line-height: 100px;
+}
+ol{
+    list-style-type: lower-alpha;
+}

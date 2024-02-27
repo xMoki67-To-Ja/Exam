@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zespoły ratownicze</title>
+    <link rel="stylesheet" href="styl3.css" type="text/CSS"/>
+</head>
+<body><div id="baner">
+    <div id="lewy"><h2>Dodanie zespołu ratowniczego</h2></div>
+    <div id="srodek"><p>Kontakt:<br /> 022 222 11 333</p></div>
+    <div id="prawy"><img src="obraz.jpg" height="100px" width="*" alt="Ratownicy"/></div>
+    </div>
+    <div id="glowny">
+        <h3>Dodaj nowy zespół</h3>
+        <form action="dodanie.php" method="post">
+            <label>Numer karetki:</label><br />
+            <input type="number" name="numer_karetki"><br />
+            <label>Imię i nazwisko pierwszego ratownika:</label><br />
+            <input type="text" name="r1"><br />
+            <label>Imię i nazwisko drugiego ratownika:</label><br />
+            <input type="text" name="r2"><br />
+            <label>Imię i nazwisko trzeciego ratownika:</label><br />
+            <input type="text" name="r3"><br />
+            <input type="reset" value="CZYŚĆ"/>
+            <input type="submit" value="DODAJ"/>
+        </form>
+    </div>
+    <div id="stopka">
+    <div id="lewy_stopka"><a href="kwerendy.txt" download="download">Zobacz kwerendy</a></div>
+    <div id="srodek_stopka"><h5>Przypominamy numery alarmowe</h5>
+        <ol>
+            <li>112</li>
+            <li>999</li>
+        </ol>
+    </div>
+    <div id="prawy_stopka">
+        <p>Autor<br />Dominik Pękal</p>
+    </div>
+    </div>
+</body>
+</html>

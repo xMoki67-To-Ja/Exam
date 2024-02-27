@@ -1,0 +1,4 @@
+INSERT INTO `ratownicy`(`id`, `nrKaretki`, `ratownik1`, `ratownik2`, `ratownik3`) VALUES ('','20','Adam Nowak','Jan Kowalski','Anna Nowakowska')
+SELECT zgloszenia.id, zgloszenia.adres, zgloszenia.ratownicy_id FROM `zgloszenia` WHERE zgloszenia.dyspozytorzy_id=4
+CREATE USER 'adam'@'%' IDENTIFIED BY 'Adam6&'
+GRANT INSERT, UPDATE, DELETE ON ratownicy TO 'adam'
